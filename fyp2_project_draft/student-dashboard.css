@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f9ff;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #1491c8;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.logo {
+  height: 35px;
+}
+
+.profile-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+/* Dropdown */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+  width: 100px;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.dropdown a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Main */
+.main-content {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-content h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.main-content p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  margin-bottom: 40px;
+}
+
+.scan-btn {
+  background-color: #1491c8;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Table */
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: black;
+  color: white;
+}

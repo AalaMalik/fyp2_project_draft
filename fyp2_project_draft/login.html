@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="student-theme"> <!-- default: student -->
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <img src="logo.png" alt="Logo" class="logo" />
+  </div>
+
+  <!-- Login Section -->
+  <div class="login-container">
+    <h1>Login</h1>
+
+    <!-- Role Switch Buttons -->
+    <div class="role-toggle">
+      <button id="lecturer-btn" class="role-btn">LECTURER</button>
+      <button id="student-btn" class="role-btn active">STUDENT</button>
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <input type="email" placeholder="EMAIL" required />
+      <input type="password" placeholder="PASSWORD" required />
+      <button type="submit" class="login-button">Login</button>
+      <button type="button" class="forgot-button">Forget password</button>
+    </form>
+  </div>
+
+  <script src="theme.js"></script>
+</body>
+</html>
